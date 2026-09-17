@@ -1,15 +1,13 @@
 # Foreman
 
-Foreman puts a fast decision model above a floor of slower coding agents.
+Foreman watches the software factory floor with [TypeSafe AI's Jev](https://docs.typesafe.ai/introduction),
+placing a fast decision model above slower coding agents.
 
-Give it a ticket, specification, bug report, or any free-form software job. Codex does the
-software engineering while Foreman watches the factory floor: it repeatedly assesses whether the
-implementation is complete, requirements are satisfied, tests are sufficient, a worker is stuck,
-verification is needed, or the job is ready to finish.
-
-Foreman currently uses [TypeSafe AI's Jev](https://docs.typesafe.ai/introduction) for fast semantic
-decisions and [Codex](https://learn.chatgpt.com/docs/developer-commands?surface=cli) as its coding
-worker.
+Give it a ticket, specification, bug report, or any free-form software job. A
+[Codex](https://learn.chatgpt.com/docs/developer-commands?surface=cli) worker does the software
+engineering while Foreman independently assesses whether the implementation is complete,
+requirements are satisfied, tests are sufficient, verification is needed, or human input is
+required.
 
 ```text
                          SOFTWARE FACTORY
